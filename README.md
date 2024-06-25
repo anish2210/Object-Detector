@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Object Detection Website using TensorFlow COCO-SSD
 
-## Getting Started
+This project is an object detection website that uses the COCO-SSD model from TensorFlow.js. It allows real-time object detection using a webcam feed.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Demo](#demo)
+- [Features](#features)
+- [Usage](#usage)
+- [Display Names](#display-names)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can access a live demo of the project [here](#).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- Real-time object detection using a webcam
+- Uses TensorFlow.js for running the COCO-SSD model in the browser
+- Identifies and labels common objects
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Allow the website to access your webcam.
+2. The website will start detecting objects in the webcam feed.
+3. Detected objects will be labeled with their respective names.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Display Names
 
-## Deploy on Vercel
+The COCO-SSD model can detect the following objects:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| `person` | `bicycle` | `car` | `motorcycle` | `airplane` | `bus` | `train` | `truck` |
+| `boat` | `traffic light` | `fire hydrant` | `stop sign` | `parking meter` | `bench` | `bird` | `cat` |
+| `dog` | `horse` | `sheep` | `cow` | `elephant` | `bear` | `zebra` | `giraffe` |
+| `backpack` | `umbrella` | `handbag` | `tie` | `suitcase` | `frisbee` | `skis` | `snowboard` |
+| `sports ball` | `kite` | `baseball bat` | `baseball glove` | `skateboard` | `surfboard` | `tennis racket` | `bottle` |
+| `wine glass` | `cup` | `fork` | `knife` | `spoon` | `bowl` | `banana` | `apple` |
+| `sandwich` | `orange` | `broccoli` | `carrot` | `hot dog` | `pizza` | `donut` | `cake` |
+| `chair` | `couch` | `potted plant` | `bed` | `dining table` | `toilet` | `tv` | `laptop` |
+| `mouse` | `remote` | `keyboard` | `cell phone` | `microwave` | `oven` | `toaster` | `sink` |
+| `refrigerator` | `book` | `clock` | `vase` | `scissors` | `teddy bear` | `hair drier` | `toothbrush` |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
