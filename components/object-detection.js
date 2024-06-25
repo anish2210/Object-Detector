@@ -68,7 +68,7 @@ const ObjectDetection = () => {
   return (
     <div className="mt-8">
       {isLoading ? (
-        <div className="gradient-title">Loading AI Model...</div>
+        <div className="gradient-title">Loading AI Model, <b>Please Wait...</b></div>
       ) : (
         <div className="relative flex justify-center items-center gradient p-1.5 rounded-md">
           {/* webcam */}
