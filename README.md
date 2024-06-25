@@ -11,7 +11,7 @@ This project is an object detection website that uses the COCO-SSD model from Te
 
 ## Demo
 
-You can access a live demo of the project [here](#).
+You can access a live demo of the project [here](https://itsobjectdetector.vercel.app/).
 
 ## Features
 
